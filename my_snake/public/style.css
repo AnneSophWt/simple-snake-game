@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #5d9155;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    border: 3px solid #fff;
+}
+#resetButton{
+    font-family: "Permanent Marker";
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#score{
+    font-family: "Permanent Marker";
+    font-size: 50px;
+}
